@@ -1,0 +1,38 @@
+# === OS-specific ===
+.DS_Store
+Thumbs.db
+
+# === Build files ===
+*.o
+*.d
+*.obj
+*.gch
+*.pch
+
+# === Output binary ===
+bin/
+sfmlgame
+sfmlgame.exe
+
+# === Makefile auto-generated ===
+*.dep
+*.map
+
+# === Editor/IDE configs ===
+.vscode/
+.idea/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+
+# === CMake (if added later) ===
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+build/
+
+# === Backup / logs / temp ===
+*.log
+*.tmp
+*~
